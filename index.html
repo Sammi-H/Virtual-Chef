@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Francois</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.icon" type="image/x-icon">
+
+</head>
+<body>
+
+
+    
+    <div class="container">
+        <div class="header">
+            <h1>Welcome</h1>
+            <h2>to your Virtuel Chef, Im Francois lets Cook!</h2>
+        </div>
+        <form id="searchForm" autocomplete="off">
+            <div class="input-container">
+                <textarea id="input" placeholder="What would you like to cook today?" autocomplete="off"></textarea>
+                <button type="submit" id="btn">Ask Chef François!</button>
+            </div>
+            <div class="reset-container">
+                <button class="reset" id="resetSearchBtn">Reset Search</button>
+            </div>            
+            <div id="errorModal" style="display: none;">
+                <div class="modal-content">
+                    <p>The maximum number of characters is 1700.</p>
+                    <button class="modal-btn" onclick="closeModal()">Close</button>
+                </div>
+            </div>
+        </form>
+        <div class="chef">
+            <img src="docs/Images/Chef.PNG">
+        </div>
+        <div id="recepie-container"></div>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
